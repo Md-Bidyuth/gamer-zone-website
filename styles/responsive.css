@@ -20,6 +20,7 @@
     .play-section-container{
         flex-direction: column;
        align-items: center;
+       margin-bottom: 70px;
     }
     .play-section-texts{
         text-align: center;
@@ -35,6 +36,16 @@
     .play-section-img{
         width:80%;
         margin-left: 20%;
+    }
+    .option-container{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0px 5px;
+        gap: 10px;
+    }
+    .option h5{
+        font-size: 0.5rem;
+
     }
 }
 
@@ -68,6 +79,7 @@
     .play-section-container{
         flex-direction: column;
        align-items: center;
+       margin-bottom: 100px;
     }
     .play-section-texts{
         text-align: center;
@@ -84,5 +96,10 @@
         width:80%;
         margin-left: 20%;
     }
-
+    .option-container{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0px 20px;
+        gap: 20px;
+    }
 }
