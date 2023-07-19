@@ -141,6 +141,11 @@ p{
 .cards-container img, .cards-container p{
     width: 220px;
 }
+.special-img:hover{
+      border:3px solid black;
+      border-radius: 10px;
+    
+}
 
 /* play instantly section */
 .play-section-container{
