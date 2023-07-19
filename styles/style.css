@@ -89,6 +89,10 @@ p{
     margin: auto;
     padding-right: 100px;
 }
+.banner-texts i{
+    padding-right: 4px;
+    color:#F948B2;
+}
 .play-like-the{
     font-size: 2.2rem;
     font-weight: 500;
