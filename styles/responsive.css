@@ -45,7 +45,45 @@
     }
     .option h5{
         font-size: 0.5rem;
-
+    }
+    
+    
+    .footer-items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        padding:0px 100px; 
+    }
+    .footer-items h6{
+          padding-bottom: 5px;
+    }
+    .icons-container{
+        width:50%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        margin-left: 140px;
+        margin-right: 100px;
+    }
+    .icons-container i{
+       padding-bottom: 10px;
+    }
+    .paragraphs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-evenly;
+        width:70%;
+        margin: 0px 100px;
+    }
+    .paragraphs p{
+        margin-bottom: 10px;
+    }
+    .last-line{
+        
+        display: flex;
+        max-width: 35%;
+        margin: auto;
+       
     }
 }
 
