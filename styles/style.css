@@ -15,7 +15,10 @@ p{
     color:#534C64;
 }
 .goat,.funny-videos,.play-instantly{
-    
+    color:transparent;
+    background-image:linear-gradient(to bottom,#F948B2,#8758F1);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 /* ---header style--- */
 /* nav-bar style */
