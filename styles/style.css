@@ -14,6 +14,9 @@ p{
     font-size:0.75rem;
     color:#534C64;
 }
+.goat,.funny-videos,.play-instantly{
+    
+}
 /* ---header style--- */
 /* nav-bar style */
 .nav-container{
@@ -23,20 +26,24 @@ p{
     margin: 2% 15%;
     /* background-color:aquamarine; */
 }
-.nav-left{
+.nav-left,.footer-logo{  /*shared*/
     display: flex;
     gap: 10px;
     align-items: center;
+  
 }
-.nav-left h2{
-    font-size: 2rem;
+.nav-left h2,.footer-logo h2{  /*shared*/
+    font-size: 1.7rem;
 }
-.nav-left img{
+.nav-left img,.footer-logo img{  /*shared*/
     width: 50px;
-    height: 30px;
+    height: 24px;
 }
 .g-style{
     color:#FF42A4;
+}
+.fa-youtube{
+    color:red;
 }
 .nav-right ul{
     display: flex;
@@ -81,7 +88,8 @@ p{
 }
 .play-like-the{
     font-size: 2.2rem;
-    font-weight: 600;
+    font-weight: 500;
+    color:black;
 }
 .goat{
     font-size: 4rem;
@@ -206,4 +214,52 @@ p{
 .option:hover{
     border:1.5px solid #FF42A4;
     color:#FF42A4;
+}
+
+/* footer style */
+footer{
+    background-color: #0B0223;
+    min-height: 200px;
+}
+
+.footer-logo{
+    padding-top:7%;
+    padding-bottom: 3.5%;
+    justify-content: center;
+}
+.footer-logo h2{
+    color:white;
+}
+footer h6{
+    color:rgb(225, 217, 217);
+}
+.footer-items{
+    display: flex;
+    justify-content: center;
+    gap:3.5%;
+}
+.icons-container{
+    display: flex;
+    justify-content: center;
+    gap:3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.icons-container .fa-brands{
+    color:white;
+    font-size: 1.5rem;
+}
+.paragraphs{
+    display: flex;
+    justify-content: center;
+    gap:3%;
+}
+.paragraphs p,.last-line{
+    color:#c4c0ce;
+    font-size: 0.6rem;
+}
+.last-line{
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 8%;
 }
