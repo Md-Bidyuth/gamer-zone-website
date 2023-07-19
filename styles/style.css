@@ -170,3 +170,40 @@ p{
     top: 60%;
     right:75%;
 }
+
+/* last section style */
+.last-section{
+  margin-top: 10% ;
+
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.option-container{
+   
+    /* background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); */
+    padding: 80px 100px;
+    display:flex;
+    /* flex-basis: 300px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+.option{
+    /* width:100%; */
+    /* width: 12%; */
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding:7px 5px;
+    background-color: white;
+    border-radius: 40px;
+}
+.option h5{
+    font-size: 0.8rem;
+}
+.option img{
+    width:20%;
+}
+.option:hover{
+    border:1.5px solid #FF42A4;
+    color:#FF42A4;
+}
