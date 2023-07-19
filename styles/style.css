@@ -133,7 +133,7 @@ p{
 .online-games-title p{
     margin-top: 10px;
 }
-.cards-container{
+.cards-container {
     display: flex;
     justify-content: center;
     gap: 20px;
