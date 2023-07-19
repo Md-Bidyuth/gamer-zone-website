@@ -1,0 +1,43 @@
+/* media query for mobile device */
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+        gap: 20px;
+    }   
+    .banner-container{
+        flex-direction: column;
+        width:90%;
+    }
+    .banner-texts{
+        text-align: center;
+        padding-right: 0px;
+        width:100%;
+     
+     
+    }
+
+
+
+
+
+}
+
+/* media query for tablet device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav-container{
+        flex-direction: column;
+        gap: 20px;
+    }   
+    .banner-container{
+        flex-direction: column;
+        width:90%;
+    }
+    .banner-texts{
+        text-align: center;
+        padding-right: 0px;
+        width:100%;
+     
+     
+    }
+
+}
