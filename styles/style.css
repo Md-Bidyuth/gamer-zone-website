@@ -111,6 +111,7 @@ p{
 }
 
 /* main section style */
+/* oniline games section */
 .online-games{
     margin: 100px auto;
 }
@@ -128,4 +129,44 @@ p{
 }
 .cards-container img, .cards-container p{
     width: 220px;
+}
+
+/* play instantly section */
+.play-section-container{
+    display: flex;
+    align-items: center;
+    gap:10%;
+    width:80%;
+    margin:auto;
+}
+.play-section-texts{
+    text-align: right;
+    width:60%;
+    margin-left: auto;
+    /* width: 200px; */
+    padding-right: 10%;
+    /* background-color: antiquewhite; */
+}
+.play-section-texts p{
+   margin-top: 5%;
+   margin-left: 30%;
+   line-height: 22px;
+}
+.play-title{
+    font-size: 2rem;
+}
+.play-section-img{
+    width:70%;
+    margin: auto;
+    position: relative;
+}
+.play-section-img .first-img{
+    width:100%;
+    
+}
+.play-section-img .second-img{
+    width:50%;
+    position: absolute;
+    top: 60%;
+    right:75%;
 }
