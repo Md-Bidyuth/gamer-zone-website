@@ -50,6 +50,7 @@ p{
 .nav-right ul{
     display: flex;
     align-items: center;
+  
 }
 .nav-right ul li{
     list-style: none;
