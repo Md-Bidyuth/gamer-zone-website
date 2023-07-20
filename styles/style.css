@@ -26,8 +26,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2% 15%;
-    /* background-color:aquamarine; */
+    margin: 2% 15%; 
 }
 .nav-left,.footer-logo{  /*shared*/
     display: flex;
@@ -89,8 +88,9 @@ p{
     margin: auto;
     padding-right: 100px;
 }
+
 .banner-texts i{
-    padding-right: 4px;
+    padding-right: 7px;
     color:#F948B2;
 }
 .play-like-the{
@@ -203,6 +203,7 @@ p{
     gap:20px;
 }
 .option{
+   
     display: flex;
     align-items: center;
     gap:10px;
